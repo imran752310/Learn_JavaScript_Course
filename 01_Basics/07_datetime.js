@@ -11,3 +11,6 @@ console.log(typeof myDate);
 
 let timeStamp = Date.now();
 console.log(timeStamp);
+
+//let myNewDate = new Date(dd,mm,dd);
+let myNewDate = new Date(2023-2-25);
