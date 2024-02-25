@@ -14,6 +14,9 @@ console.log([0]);
 let myArr = new Array(1, 2, 3, 4);
 
 //Array Methods
+myArr.push(6);
+myArr.pop(8);
+console.log(myArr);
 
 
 
