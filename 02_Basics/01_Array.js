@@ -30,6 +30,19 @@ console.log(typeof newArr);
 
 //slice and splice
 
+console.log("A" , myArray);
+
+const myA = myArray.slice(1,3);
+console.log(myA);
+
+console.log("B", myArray);
+
+const myA1 = myArray.splice(1,3);//Splice manipulate orignal array
+console.log("C", myArray);
+console.log(myA1);
+
+
+
 
 
 
