@@ -2,21 +2,35 @@
 
 
 const myArray = [0, 1, 2, 3, 4, 5];
-console.log([2]);
+// console.log([2]);
 
 //JAvaScript Array is Resizable
 //Shallow Coppy
 //Deep Copy
 
 const stringArray =["Ali","Wali","Imran"];
-console.log([0]);
+// console.log([0]);
 
 let myArr = new Array(1, 2, 3, 4);
 
 //Array Methods
 myArr.push(6);
-myArr.pop(8);
+myArr.pop(1);
+myArr.unshift(9);
+myArr.shift();
+
+// console.log (myArr.includes(2));// check number in array
+// console.log(myArr.indexOf(3));
+const newArr = myArr.join();// it convert array to string
+
 console.log(myArr);
+console.log(newArr);
+console.log(typeof newArr);
+
+
+//slice and splice
+
+
 
 
 
