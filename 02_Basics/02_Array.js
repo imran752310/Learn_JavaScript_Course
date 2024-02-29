@@ -22,4 +22,17 @@ const useSpread  = [...Array1, ...Array2];
     const nestArray = nestedArray.flat(Infinity);// to make one Array
     console.log(nestArray);
 
-    
+
+    console.log(Array.isArray("Muhammad Imran"));
+    console.log(Array.from("Muhammad Imran"));
+
+    console.log(Array.from({name : "Muhammad Imran"}));//object print
+
+    const score = 100;
+    const score1 = 200;
+    const score2 = 300;
+    const score3 = 400;
+
+    console.log(Array.of(score, score1, score2, score3));// convert to one array
+ 
+
