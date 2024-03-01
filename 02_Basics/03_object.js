@@ -26,12 +26,26 @@ console.log(JsUser[mySym]);
 JsUser.email = "new@gmail.com";
 console.log(JsUser.email);
 
-Object.freeze(JsUser);
+//Object.freeze(JsUser);
 
 JsUser.email = "windo@gmail.com";
 console.log(JsUser.email);
 
 console.log(JsUser);
+
+
+JsUser.greeting = function(){
+    console.log("Hello Js User");
+}
+
+JsUser.greetingTwo = function(){
+    console.log(`Hello Js User , ${this.name}`);
+}
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
+
+console.log(JsUser.greeting);//out put give you [Function (anonymous)] it not execute but give refrence
+
 
 
 
