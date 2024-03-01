@@ -23,10 +23,11 @@ console.log(JsUser["email"]);
 console.log(JsUser.mySym);
 console.log(JsUser[mySym]);
 
-JsUser.email = "new@gmail.com";
+JsUser.email = "new@gmail.com";// value manipulation
 console.log(JsUser.email);
 
-//Object.freeze(JsUser);
+//Object.freeze(JsUser);// used for  making an object immutable means can't be changed after creation
+// if you try to change it will throw error in console
 
 JsUser.email = "windo@gmail.com";
 console.log(JsUser.email);
