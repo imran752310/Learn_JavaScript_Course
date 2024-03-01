@@ -46,5 +46,35 @@ const obj4 = {...obj1 , ...obj2} // this is also way of joining two objects
 console.log(obj4);
 
 
+//Another Syntax which Use for Fetch Data From Database
+
+const User1 = [
+    {
+        id : 1,
+        email : "abc@gmail.com" 
+    },
+    {
+        id : 2,
+        email : "xyz@yahoo.com"
+    },
+    {
+        id : 3,
+        email : "xyz@yahoo.com"
+    }
+]
+
+User1[1].email;
+// let userEmail= User1.find((user)=>{return user.id == 2})
+// console.log(userEmail.email);
+
+console.log(nonSingalTnObjt);
+
+console.log(Object.keys(nonSingalTnObjt));//prnt Keys
+console.log(Object.values(nonSingalTnObjt));// print Values
+
+console.log(Object.entries(nonSingalTnObjt));// print [ [ 'id', '123' ], [ 'name', 'Imran Khan' ], [ 'status', false ] ]
+console.log(Object.hasOwnProperty(nonSingalTnObjt));//prnt Keys
+
+
 
 
