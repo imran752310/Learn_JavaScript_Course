@@ -16,3 +16,14 @@ function addNumber(num1 ,num2){//num1 and num2 are Parameters
 
 const sum = addNumber(3, 9)
 console.log("Result : ", sum); //returns 12
+
+
+function logIn(userName = "ali", password){// pass default value 
+
+    if(userName === undefined &&  password === undefined ){
+        return ('User name or Password cannot be empty')
+    }else{
+    return `Hi "${userName}", your Password is "${password}"`;
+    }
+}
+console.log(logIn("Imran Khan"));// Ali overide by imran khan
