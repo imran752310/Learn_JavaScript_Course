@@ -52,4 +52,42 @@ function calculateCartPrice(val1,valu2, ...num1){
 console.log(calculateCartPrice(200, 30, 499, 500,300, 212 )); // the ist two value pass in val1 and val2 and then print all in num1
 
 
+//How to Pass Object from Function
+
+const User = {
+    userName : "Imran Khan",
+    Price : 122,
+}
+
+// function handleObject(anyObject){
+//     return `Username is ${anyObject.userName} and Price ${anyObject.Price} `;
+// }
+// console.log(handleObject(User));
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.userName} and Price ${anyObject.Price}`);
+}
+
+handleObject(User);
+
+handleObject({
+    userName : "Wali ali",
+    Price : 234
+});
+
+// Pass Array From Function
+
+const myArray = [1, 2, 3, 4, 5, 6];
+
+function passArray(getArray){
+    return getArray[2];
+}
+
+// console.log(passArray(myArray));
+
+ 
+console.log(passArray([102, 111, 333]));
+
+
+
 
