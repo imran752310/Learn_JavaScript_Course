@@ -26,4 +26,30 @@ function logIn(userName = "ali", password){// pass default value
     return `Hi "${userName}", your Password is "${password}"`;
     }
 }
-console.log(logIn("Imran Khan"));// Ali overide by imran khan
+//console.log(logIn("Imran Khan"));// Ali overide by imran khan
+
+//Cart or shoping card in website concept in function
+//kala che mung function create ko khu da rata pata naye che sumra argument pati pass ke ge num mung ba rest oprator pass ko
+
+// function calculateCartPrice(num1){
+//     return num1;
+// }
+
+// console.log(calculateCartPrice(200, 30, 499, 500 ));  //print only one value 200
+
+
+// function calculateCartPrice(...num1){
+//     return num1;
+// }
+
+// console.log(calculateCartPrice(200, 30, 499, 500 ));  //using Spred operator give all value in one array
+
+
+function calculateCartPrice(val1,valu2, ...num1){
+    return num1;
+}
+
+console.log(calculateCartPrice(200, 30, 499, 500,300, 212 )); // the ist two value pass in val1 and val2 and then print all in num1
+
+
+
