@@ -40,3 +40,18 @@ if(true){
   //  console.log(website);// out of scope
 }
 // console.log(username);//out of scope
+
+
+// hoisting function  declaration
+
+addOne(5);// no error
+function addOne(num){
+    return num + 1;
+}
+//addOne(5);
+
+addTwo(3)// create a error
+const addTwo= function(num){
+    return num + 2;
+}
+// addTwo(3)
