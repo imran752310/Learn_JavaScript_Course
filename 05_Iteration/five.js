@@ -3,8 +3,11 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 //useing foreach loop or functon 
 coding.forEach( function (val) {
-    console.log(val);
+    //console.log(val);
 } )
+
+//usring Arrow function or call back function
+
 
 
 
